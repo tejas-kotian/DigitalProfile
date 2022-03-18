@@ -1,2 +1,0 @@
-# DigitalProfile
-Created with CodeSandbox
