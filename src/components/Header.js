@@ -11,14 +11,14 @@ const useStyles = makeStyles((theme) => ({
   avatar: {
     width: theme.spacing(15),
     height: theme.spacing(15),
-    margin: theme.spacing(1)
+    margin: theme.spacing(1),
   },
   title: {
-    color: "tomato"
+    color: "tomato",
   },
   subtitle: {
     color: "tan",
-    textTransform: "uppercase"
+    textTransform: "uppercase",
   },
   typedContainer: {
     position: "absolute",
@@ -27,8 +27,8 @@ const useStyles = makeStyles((theme) => ({
     transform: "translate(-50%,-50%)",
     width: "100vw",
     textAlign: "center",
-    zIndex: 1
-  }
+    zIndex: 1,
+  },
 }));
 
 const Header = () => {
@@ -46,10 +46,10 @@ const Header = () => {
       <Typography className={classes.subtitle} variant="h5">
         <Typed
           strings={[
-            "Engineering Manager",
-            "UI Architect",
-            "Front End Developer",
-            "Back End Developer"
+            "VP of Architecture",
+            "Director of Architecture",
+            "Senior Architect",
+            "Back End Developer",
           ]}
           typeSpeed={40}
           backSpeed={50}
