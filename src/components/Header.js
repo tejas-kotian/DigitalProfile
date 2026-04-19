@@ -50,6 +50,7 @@ const Header = () => {
             "Director of Architecture",
             "Senior Architect",
             "Back End Developer",
+            "Front End"
           ]}
           typeSpeed={40}
           backSpeed={50}
